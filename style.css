@@ -49,8 +49,9 @@ main .container {
 
 .items-list {
     list-style-type: none;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(219, 219, 219);
     margin: 40px 0;
+    border-radius: 10px;
 }
 
 .items-list li {

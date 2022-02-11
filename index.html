@@ -35,10 +35,10 @@
             <div class="bottom-list">
 
                 <ul class="items-list">
-                    <li v-for="task in tasks">
+                    <li v-for="(task, index) in tasks">
                         {{task}}
 
-                        <i class="fa-solid fa-xmark"></i>
+                        <i @click="removeTask(index)" class="fa-solid fa-xmark"></i>
                     </li>
                 </ul>
 
