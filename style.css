@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    margin: 30px 0px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.logo-text {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+/*Sezione input*/
+
+main .container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.add-input {
+    padding: 5px;
+}
+
+.add-btn {
+    padding: 5px;
+    margin-left: 20px;
+}
