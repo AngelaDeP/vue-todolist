@@ -56,4 +56,14 @@ main .container {
 .items-list li {
     padding: 20px;
     border: 1px solid #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.items-list i {
+    float: right;
+}
+
+.items-list i:hover {
+    color: rgb(255, 0, 0);
 }
