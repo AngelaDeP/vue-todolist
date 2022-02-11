@@ -28,9 +28,12 @@ header {
 
 main .container {
     width: 50%;
-    margin: auto;
-    text-align: center;
+    margin: auto;  
     margin-top: 50px;
+}
+
+.container .top-list {
+    text-align: center;
 }
 
 .add-input {
@@ -40,4 +43,17 @@ main .container {
 .add-btn {
     padding: 5px;
     margin-left: 20px;
+}
+
+/*Sezione lista*/
+
+.items-list {
+    list-style-type: none;
+    background-color: rgb(201, 201, 201);
+    margin: 40px 0;
+}
+
+.items-list li {
+    padding: 20px;
+    border: 1px solid #fff;
 }

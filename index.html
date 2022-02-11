@@ -24,13 +24,19 @@
 
             <div class="top-list">
 
-                <input class="add-input" type="text" placeholder="Write your task here!">
+                <input class="add-input" v-model="newtask" type="text" placeholder="Write your task here!">
 
-                <button class="add-btn">Add</button>
+                <button @click="addTask" class="add-btn">Add</button>
 
             </div>
 
             <div class="bottom-list">
+
+                <ul class="items-list">
+                    <li v-for="task in tasks">
+                        {{task}}
+                    </li>
+                </ul>
 
             </div>
 
