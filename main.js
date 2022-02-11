@@ -3,9 +3,13 @@ const app = new Vue ({
     el: '#app',
     data: {
 
-        newtask: '',
         tasks: [],
         
+        todo: {
+            newtask: '',
+            done: false,
+        },
+           
     },
     methods: {
 
@@ -19,6 +23,13 @@ const app = new Vue ({
         },
 
         finishedTask() {
+            this.done = !this.done;
+
+            if (this.done = true) {
+                todo.tasks.classList.add("txt-line");
+            } else {
+                this.done = false;
+            }
             
         }
 
