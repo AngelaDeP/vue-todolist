@@ -5,12 +5,7 @@ const app = new Vue ({
 
         newtask: '',
         tasks: [],
-
-        todo: {
-            todoTask: 'newtask',
-            done: false,
-        }
-
+        
     },
     methods: {
 
@@ -21,6 +16,10 @@ const app = new Vue ({
 
         removeTask(index) {
             this.tasks.splice(index, 1);
+        },
+
+        finishedTask() {
+            
         }
 
     }

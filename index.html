@@ -26,7 +26,7 @@
 
             <div class="top-list">
 
-                <input class="add-input" v-model="newtask" type="text" placeholder="Write your task here!">
+                <input @keyup.enter="addTask" class="add-input" v-model="newtask" type="text" placeholder="Write your task here!">
 
                 <button @click="addTask" class="add-btn">Add</button>
 
@@ -36,7 +36,7 @@
 
                 <ul class="items-list">
                     <li v-for="(task, index) in tasks">
-                        {{task}}
+                        <span @click="finishedTask">{{task}}</span>
 
                         <i @click="removeTask(index)" class="fa-solid fa-xmark"></i>
                     </li>

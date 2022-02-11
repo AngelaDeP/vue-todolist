@@ -68,3 +68,9 @@ main .container {
 .items-list i:hover {
     color: rgb(255, 0, 0);
 }
+
+/*Classe per tasks selezionate*/
+
+.txt-line {
+    text-decoration: line-through;
+}
